@@ -1,4 +1,4 @@
-treename : Events
+treename : ntuplizer_muon/Events
 selection:
    (MuonSelected_LepGood_pt[:,0] > 5) & (np.abs(MuonSelected_LepGood_eta[:,0]) < 2.4)
 new_variables:
